@@ -1,0 +1,8 @@
+# Development requirements
+
+-r requirements.base.in
+
+pip-tools
+pylint
+pylint_django
+pylint-quotes

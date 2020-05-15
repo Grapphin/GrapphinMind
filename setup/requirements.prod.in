@@ -1,0 +1,5 @@
+# Production requirements
+
+-r requirements.base.in
+
+psycopg2-binary

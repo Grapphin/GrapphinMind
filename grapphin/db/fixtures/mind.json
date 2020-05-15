@@ -1,0 +1,109 @@
+[
+    {
+        "model": "mind.gtree",
+        "pk": 1,
+        "fields": {
+            "created": "2020-05-16T11:03:03.693Z",
+            "modified": "2020-05-16T11:03:03.693Z",
+            "name": "Tree 1",
+            "description": "",
+            "owner": 1,
+            "public": false
+        }
+    },
+    {
+        "model": "mind.gnode",
+        "pk": 1,
+        "fields": {
+            "created": "2020-05-16T11:03:03.663Z",
+            "modified": "2020-05-16T11:03:03.663Z",
+            "name": "Node 1",
+            "description": "",
+            "owner": 1,
+            "public": false
+        }
+    },
+    {
+        "model": "mind.gnode",
+        "pk": 2,
+        "fields": {
+            "created": "2020-05-16T11:03:03.672Z",
+            "modified": "2020-05-16T11:03:03.672Z",
+            "name": "Node 2",
+            "description": "",
+            "owner": 1,
+            "public": false
+        }
+    },
+    {
+        "model": "mind.gnode",
+        "pk": 3,
+        "fields": {
+            "created": "2020-05-16T11:03:03.679Z",
+            "modified": "2020-05-16T11:03:03.679Z",
+            "name": "Node 3",
+            "description": "",
+            "owner": 1,
+            "public": false
+        }
+    },
+    {
+        "model": "mind.gnode",
+        "pk": 4,
+        "fields": {
+            "created": "2020-05-16T11:03:03.686Z",
+            "modified": "2020-05-16T11:03:03.686Z",
+            "name": "Node 4",
+            "description": "",
+            "owner": 1,
+            "public": false
+        }
+    },
+    {
+        "model": "mind.gbranch",
+        "pk": 1,
+        "fields": {
+            "name": "",
+            "description": "",
+            "inbound": 1,
+            "outbound": 2,
+            "weight": 0,
+            "tree": 1
+        }
+    },
+    {
+        "model": "mind.gbranch",
+        "pk": 2,
+        "fields": {
+            "name": "",
+            "description": "",
+            "inbound": 1,
+            "outbound": 4,
+            "weight": 0,
+            "tree": 1
+        }
+    },
+    {
+        "model": "mind.gbranch",
+        "pk": 3,
+        "fields": {
+            "name": "",
+            "description": "",
+            "inbound": 2,
+            "outbound": 3,
+            "weight": 0,
+            "tree": 1
+        }
+    },
+    {
+        "model": "mind.gcontent",
+        "pk": 1,
+        "fields": {
+            "created": "2020-05-16T16:01:41.981Z",
+            "modified": "2020-05-16T16:01:41.981Z",
+            "node": 1,
+            "kind": "TEXT",
+            "value": "Some text"
+        }
+    }
+]

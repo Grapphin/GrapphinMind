@@ -1,0 +1,20 @@
+[
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$180000$7LTwERozyzpw$9npyNV95MDEKgpR2yanCVy1hmm7GBbSRHbzXKezsBmE=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "developer",
+            "first_name": "",
+            "last_name": "",
+            "email": "dev@grapphin.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-05-16T10:56:36.434Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

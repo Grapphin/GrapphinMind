@@ -1,0 +1,15 @@
+[MASTER]
+jobs=0
+
+load-plugins=
+    pylint_django,
+    pylint_quotes,
+
+disable=
+    bad-whitespace,
+    bad-continuation,
+
+max-line-length=130
+string-quote=double
+triple-quote=double
+docstring-quote=double

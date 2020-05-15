@@ -1,0 +1,10 @@
+
+# Build files and deps
+venv
+gvenv
+__pycache__
+*.pyc
+
+# Local files
+.env
+*.sqlite3

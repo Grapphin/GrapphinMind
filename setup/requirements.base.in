@@ -1,0 +1,7 @@
+# Base requirements
+
+django
+djangorestframework
+gunicorn
+pyjwt
+python-dotenv
